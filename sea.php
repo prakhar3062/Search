@@ -33,7 +33,7 @@
                         $db=mysqli_select_db($connection,'jay')or die("ch");
                         if(isset($_POST['search'])){
                             $id=$_POST['id'];
-                            $query="SELECT * FROM content where ID='$id'";
+                            $query="SELECT * FROM content where ID LIKE '%$id%'";
                             $query_num=mysqli_query($connection,$query)or die("lol");
                             while($row=mysqli_fetch_array($query_num)){
                                 ?>
