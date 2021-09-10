@@ -1,0 +1,24 @@
+.heroColor {
+    background-image: linear-gradient(to right, #8771F7, #8470F5, #997AFC, #e284ff);
+    border-style: none;
+    border-radius: 25px;
+    color: white;
+    padding: 20px;
+  }
+  
+  .heroImage {
+    border-radius: 5%;
+  }
+  .hero{
+    float: left;
+    padding: 2px;
+  }
+  .textColor {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+  }
+  
+  body {
+    background-color: #E7E2E2;
+  }
+  
